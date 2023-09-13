@@ -8,25 +8,22 @@ import { Canvas } from '@react-three/fiber';
 
 const TechCloud = () => {
     return (
-        <Canvas>
-            <Suspense >
-                <OrbitControls enableZoom={false} />
-                <TagCloud>
-                    {[
-                        "VSCode",
-                        "TypeScript",
-                        "React",
-                        "Preact",
-                        "Parcel",
-                        "Jest",
-                        "Next",
-                        "ESLint",
-                        "Framer Motion",
-                        "Three.js",
-                    ]}
-                </TagCloud>
-            </Suspense>
-        </Canvas>
+        <TagCloud
+            options={{ radius: 500, maxSpeed: "fast", useItemInlineStyles: true }}
+        >
+            {[
+                "VSCode",
+                "TypeScript",
+                "React",
+                "Preact",
+                "Parcel",
+                "Jest",
+                "Next",
+                "ESLint",
+                "Framer Motion",
+                "Three.js",
+            ]}
+        </TagCloud>
     )
 }
 
