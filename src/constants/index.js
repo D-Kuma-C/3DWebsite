@@ -194,67 +194,63 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Drones in Search and Rescue missions",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "The primary objective of this project is to develop an autonomous drone that can navigate to a specific target while avoiding any obstacles encountered on its route.",
         tags: [
             {
-                name: "react",
+                name: "Unity",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "C#",
                 color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/D-Kuma-C/P6---Drones-in-SAR",
     },
     {
-        name: "Job IT",
+        name: "Compiler",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "The primary objective of this project was to design and construct a compiler from scratch, thereby enabling the group to establish their own programming language.",
         tags: [
             {
-                name: "react",
+                name: "C#",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "Java",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "Antlr",
                 color: "pink-text-gradient",
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/D-Kuma-C/P4-Emotional-Damage",
     },
     {
-        name: "Trip Guide",
+        name: "Web Portfolio",
         description:
             "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
         tags: [
             {
-                name: "nextjs",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "Tailwindcss",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "JavaScript",
                 color: "pink-text-gradient",
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/D-Kuma-C/3DWebsite",
     },
 ];
 
