@@ -248,6 +248,10 @@ const projects = [
                 name: "JavaScript",
                 color: "pink-text-gradient",
             },
+            {
+                name: "HTML",
+                color: "blue-text-gradient",
+            },
         ],
         image: tripguide,
         source_code_link: "https://github.com/D-Kuma-C/3DWebsite",
