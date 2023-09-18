@@ -207,6 +207,7 @@ const projects = [
             },
         ],
         image: carrent,
+        privateRepo: false,
         source_code_link: "https://github.com/D-Kuma-C/P6---Drones-in-SAR",
     },
     {
@@ -228,6 +229,7 @@ const projects = [
             },
         ],
         image: jobit,
+        privateRepo: false,
         source_code_link: "https://github.com/D-Kuma-C/P4-Emotional-Damage",
     },
     {
@@ -257,6 +259,7 @@ const projects = [
             },
         ],
         image: tripguide,
+        privateRepo: false,
         source_code_link: "https://github.com/D-Kuma-C/3DWebsite",
     },
     {
@@ -286,6 +289,7 @@ const projects = [
             },
         ],
         image: tripguide,
+        privateRepo: false,
         source_code_link: "https://github.com/Knox-AAU/FunctionalityLayer_FactChecker",
     },
     {
@@ -315,7 +319,8 @@ const projects = [
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/D-Kuma-C/P3---Art-by-me",
+        privateRepo: true,
+        source_code_link: "",
     },
 ];
 
