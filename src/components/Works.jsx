@@ -6,7 +6,7 @@ import { github } from "../assets";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link, privateRepo }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -24,19 +24,27 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             className="w-full h-full object-cover rounded-2xl"
           />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open
-                (source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 
-              rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
+          <div className="absolute inset-0 flex justify-end m-2 card-img_hover">
+            {!privateRepo &&
+              <div
+                onClick={() => window.open
+                  (source_code_link, "_blank")}
+                className="black-gradient w-10 h-10 
+                rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={github}
+                  alt="github"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            }
+            {privateRepo &&
+              <div className="black-gradient w-3/5 h-6 rounded-full">
+                <span className="text-[#fc031c] font-bold justify-center flex">Private Repository</span>
+              </div>
+            }
+
           </div>
         </div>
 
@@ -48,7 +56,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
             <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-              #{tag.name}
+              {tag.name}
             </p>
           ))}
         </div>
@@ -74,8 +82,7 @@ const Works = () => {
           Following projects showcases my skills and
           experience through real-world examples of my work.
           Each projects is briefly described
-          with links to code repositories
-          and live demos in it. It reflects my ability to
+          with links to code repositories by cliking the github icon. It reflects my ability to
           solve complex problems, work with different technologies,
           and manage projects effectively
         </motion.p>
