@@ -23,6 +23,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    coop,
+    danpo,
+    avk,
+    sst,
+    blucher,
 } from "../assets";
 
 export const navLinks = [
@@ -112,55 +117,53 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Warehouse employee",
+        company_name: "Coop Logistik",
+        icon: coop,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "May 2020 - Aug 2020",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Packing groceries store orders fast and effectively",
+            "Responsible for cleaning minitruck.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Package substitute employee",
+        company_name: "AVK International",
+        icon: avk,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "Feb 2020 - Mar 2020",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Package substitute employee",
+        company_name: "Simpson Strong Tie",
+        icon: sst,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "Okt 2019 - Nov 2019",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Package substitute employee",
+        company_name: "Blücher Metal A/S",
+        icon: blucher,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "July 2019 - Aug 2019",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Package employee",
+        company_name: " Danpo A/S",
+        icon: danpo,
+        iconBg: "#E6DEDD",
+        date: "July 2018 - Aug 2018",
+        points: [
+            "Packed Chiken into packaging trays.",
+            "Responsible for cleaning workarea.",
+            "Qulity checking the packing and chicken.",
         ],
     },
 ];
@@ -234,7 +237,7 @@ const projects = [
     {
         name: "Web Portfolio",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "This very website you are looking at.",
         tags: [
             {
                 name: "React",
@@ -252,9 +255,71 @@ const projects = [
                 name: "HTML",
                 color: "blue-text-gradient",
             },
+            {
+                name: "Three.js",
+                color: "green-text-gradient",
+            },
         ],
         image: tripguide,
         source_code_link: "https://github.com/D-Kuma-C/3DWebsite",
+    },
+    {
+        name: "Knox",
+        description:
+            "The objective of this project was to acquire knowledge and experience in collaborative project management across multiple teams. Within this context, my team was tasked with verifying the accuracy of \"Passages\" by utilizing diverse algorithmic methods.",
+        tags: [
+            {
+                name: "C#",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Python",
+                color: "green-text-gradient",
+            },
+            {
+                name: "API",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Machine Learning",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Entity Framework",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/Knox-AAU/FunctionalityLayer_FactChecker",
+    },
+    {
+        name: "Digital Solution",
+        description:
+            "The primary objective of this project was to provide a practical solution to a company's predicament. To accomplish this, our group collaborated with Art by Me.",
+        tags: [
+            {
+                name: "C#",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Entity Framework",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Blazor",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "HTML",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "CSS",
+                color: "green-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/D-Kuma-C/P3---Art-by-me",
     },
 ];
 
