@@ -293,7 +293,7 @@ const projects = [
         source_code_link: "https://github.com/Knox-AAU/FunctionalityLayer_FactChecker",
     },
     {
-        name: "Digital Solution",
+        name: "ABM",
         description:
             "The primary objective of this project was to provide a practical solution to a company's predicament. To accomplish this, our group collaborated with Art by Me.",
         tags: [
