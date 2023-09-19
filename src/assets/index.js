@@ -26,6 +26,7 @@ import danpo from "./company/danpo.png";
 import avk from "./company/avk.png";
 import sst from "./company/sst.png";
 import blucher from "./company/blucher.png";
+import temp from "./company/tempteam.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -61,4 +62,5 @@ export {
   avk,
   sst,
   blucher,
+  temp,
 };

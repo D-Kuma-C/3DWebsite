@@ -9,7 +9,7 @@ const data = technologies.map(technology => technology.name);
 const TechCloud = () => {
     return (
         <TagCloud
-            options={{ radius: 500, maxSpeed: "fast", useItemInlineStyles: true }}
+            options={{ radius: 400, maxSpeed: "fast", useItemInlineStyles: true }}
         >
             {data}
         </TagCloud>

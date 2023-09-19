@@ -22,8 +22,7 @@ import {
     coop,
     danpo,
     avk,
-    sst,
-    blucher,
+    temp,
 } from "../assets";
 
 export const navLinks = [
@@ -134,33 +133,18 @@ const experiences = [
         points: [
             "Packing groceries store orders fast and effectively",
             "Responsible for cleaning minitruck.",
+            "Working independent",
         ],
     },
     {
-        title: "Package substitute employee",
-        company_name: "AVK International",
-        icon: avk,
+        title: "Substitute employee",
+        company_name: "Temp Team",
+        icon: temp,
         iconBg: "#E6DEDD",
-        date: "Feb 2020 - Mar 2020",
+        date: "July 2019 - Mar 2020",
         points: [
-        ],
-    },
-    {
-        title: "Package substitute employee",
-        company_name: "Simpson Strong Tie",
-        icon: sst,
-        iconBg: "#383E56",
-        date: "Okt 2019 - Nov 2019",
-        points: [
-        ],
-    },
-    {
-        title: "Package substitute employee",
-        company_name: "Blücher Metal A/S",
-        icon: blucher,
-        iconBg: "#E6DEDD",
-        date: "July 2019 - Aug 2019",
-        points: [
+            "Packing, Quality check, Cleaning",
+            "Worked with many different teams since working as a substitute employee for many companies",
         ],
     },
     {
