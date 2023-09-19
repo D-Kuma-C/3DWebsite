@@ -1,28 +1,17 @@
-import React, { Suspense } from "react";
+import React from "react";
 import { TagCloud } from "@frank-mayer/react-tag-cloud";
 // same as: import TagCloud from "@frank-mayer/react-tag-cloud"
 import { SectionWrapper } from "../hoc";
-import { Decal, Float, OrbitControls, Preload, useTexture } from '@react-three/drei';
-import CanvasLoader from './Loader';
-import { Canvas } from '@react-three/fiber';
+import { technologies } from "../constants";
+
+const data = technologies.map(technology => technology.name);
 
 const TechCloud = () => {
     return (
         <TagCloud
             options={{ radius: 500, maxSpeed: "fast", useItemInlineStyles: true }}
         >
-            {[
-                "VSCode",
-                "TypeScript",
-                "React",
-                "Preact",
-                "Parcel",
-                "Jest",
-                "Next",
-                "ESLint",
-                "Framer Motion",
-                "Three.js",
-            ]}
+            {data}
         </TagCloud>
     )
 }
