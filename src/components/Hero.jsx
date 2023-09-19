@@ -17,13 +17,13 @@ const Hero = () => {
             <span className="text-[#915eff]"> Daniel</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop  text here<br
+            I develop web applications<br
               className="sm:block hidden" />
-            text here
+            with focus on the backend.
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
       <div className="absolute xs:bottom-10 bottom-32 w-full 
         flex justify-center items-center">
         <a href="#about">
