@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import dlogo from "./dlogo.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -26,10 +27,15 @@ import danpo from "./company/danpo.png";
 import avk from "./company/avk.png";
 import sst from "./company/sst.png";
 import blucher from "./company/blucher.png";
+import temp from "./company/tempteam.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cv from "./portfolio.png";
+import drone from "./UI2.png";
+import knox from "./p5.png";
+import noImage from "./noimage.svg";
 
 export {
   logo,
@@ -61,4 +67,10 @@ export {
   avk,
   sst,
   blucher,
+  temp,
+  dlogo,
+  cv,
+  drone,
+  knox,
+  noImage,
 };

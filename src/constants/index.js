@@ -22,8 +22,11 @@ import {
     coop,
     danpo,
     avk,
-    sst,
-    blucher,
+    temp,
+    knox,
+    noImage,
+    drone,
+    cv,
 } from "../assets";
 
 export const navLinks = [
@@ -58,11 +61,11 @@ const services = [
 
 const technologies = [
     {
-        name: "HTML 5",
+        name: "HTML",
         icon: html,
     },
     {
-        name: "CSS 3",
+        name: "CSS",
         icon: css,
     },
     {
@@ -70,7 +73,7 @@ const technologies = [
         icon: javascript,
     },
     {
-        name: "TypeScript",
+        name: "C#",
         icon: typescript,
     },
     {
@@ -78,19 +81,19 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
+        name: "Node Red",
         icon: redux,
     },
     {
-        name: "Tailwind CSS",
+        name: ".NET",
         icon: tailwind,
     },
     {
-        name: "Node JS",
+        name: "Entity Framework",
         icon: nodejs,
     },
     {
-        name: "MongoDB",
+        name: "Azure DevOps",
         icon: mongodb,
     },
     {
@@ -98,15 +101,31 @@ const technologies = [
         icon: threejs,
     },
     {
-        name: "git",
+        name: "GitHub",
         icon: git,
     },
     {
-        name: "figma",
+        name: "Azure DevOps",
         icon: figma,
     },
     {
-        name: "docker",
+        name: "Blazor",
+        icon: docker,
+    },
+    {
+        name: "Tailwindcss",
+        icon: docker,
+    },
+    {
+        name: "Unity",
+        icon: docker,
+    },
+    {
+        name: "Scrum",
+        icon: docker,
+    },
+    {
+        name: "Unit tests",
         icon: docker,
     },
 ];
@@ -121,33 +140,18 @@ const experiences = [
         points: [
             "Packing groceries store orders fast and effectively",
             "Responsible for cleaning minitruck.",
+            "Working independent",
         ],
     },
     {
-        title: "Package substitute employee",
-        company_name: "AVK International",
-        icon: avk,
+        title: "Substitute employee",
+        company_name: "Temp Team",
+        icon: temp,
         iconBg: "#E6DEDD",
-        date: "Feb 2020 - Mar 2020",
+        date: "July 2019 - Mar 2020",
         points: [
-        ],
-    },
-    {
-        title: "Package substitute employee",
-        company_name: "Simpson Strong Tie",
-        icon: sst,
-        iconBg: "#383E56",
-        date: "Okt 2019 - Nov 2019",
-        points: [
-        ],
-    },
-    {
-        title: "Package substitute employee",
-        company_name: "Blücher Metal A/S",
-        icon: blucher,
-        iconBg: "#E6DEDD",
-        date: "July 2019 - Aug 2019",
-        points: [
+            "Packing, Quality check, Cleaning",
+            "Worked with many different teams since working as a substitute employee for many companies",
         ],
     },
     {
@@ -206,7 +210,7 @@ const projects = [
                 color: "green-text-gradient",
             },
         ],
-        image: carrent,
+        image: drone,
         privateRepo: false,
         source_code_link: "https://github.com/D-Kuma-C/P6---Drones-in-SAR",
     },
@@ -228,7 +232,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: noImage,
         privateRepo: false,
         source_code_link: "https://github.com/D-Kuma-C/P4-Emotional-Damage",
     },
@@ -258,7 +262,7 @@ const projects = [
                 color: "green-text-gradient",
             },
         ],
-        image: tripguide,
+        image: cv,
         privateRepo: false,
         source_code_link: "https://github.com/D-Kuma-C/3DWebsite",
     },
@@ -288,7 +292,7 @@ const projects = [
                 color: "blue-text-gradient",
             },
         ],
-        image: tripguide,
+        image: knox,
         privateRepo: false,
         source_code_link: "https://github.com/Knox-AAU/FunctionalityLayer_FactChecker",
     },
@@ -318,7 +322,7 @@ const projects = [
                 color: "green-text-gradient",
             },
         ],
-        image: tripguide,
+        image: noImage,
         privateRepo: true,
         source_code_link: "",
     },
