@@ -32,6 +32,10 @@ import temp from "./company/tempteam.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cv from "./portfolio.png";
+import drone from "./UI2.png";
+import knox from "./p5.png";
+import noImage from "./noimage.svg";
 
 export {
   logo,
@@ -64,5 +68,9 @@ export {
   sst,
   blucher,
   temp,
-  dlogo
+  dlogo,
+  cv,
+  drone,
+  knox,
+  noImage,
 };
