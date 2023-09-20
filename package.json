@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@frank-mayer/react-tag-cloud": "^1.2.1",
     "@react-three/drei": "^9.83.4",
     "@react-three/fiber": "^8.14.1",
     "framer-motion": "^10.16.4",
